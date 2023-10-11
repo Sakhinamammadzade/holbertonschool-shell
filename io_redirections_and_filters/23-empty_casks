@@ -1,2 +1,3 @@
 #!/bin/bash
-sh -c 'for dir do echo "${dir##*/}"; done' sh {}
+find . -type d -empty -print -o -type f -empty -print
+
