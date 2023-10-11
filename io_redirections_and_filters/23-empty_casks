@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -printf "%P\n" ; find . -type f -empty -printf "%P\n"
+sh -c 'for dir do echo "${dir##*/}"; done' sh {}
