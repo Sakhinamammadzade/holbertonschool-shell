@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "$WATER$STIR" | tr '[:lower:]' '[:upper:]'
+echo -n "$WATER$STIR" | tr '[:lower:]' '[:upper:]' | tr 'AB' '01' | tr 'CE' '23' | tr 'DH' '34' | tr 'FS' '56' | tr 'GR' '78' | tr 'IT' '89' | tr 'JU' '90'
