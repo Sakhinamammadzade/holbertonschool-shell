@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$1" == "encode" ]; then
+    tr 'A-Za-z' 'N-ZA-Mn-za-m'
+elif [ "$1" == "decode" ]; then
+    tr 'A-Za-z' 'N-ZA-Mn-za-m'
+else
+    echo "Usage: $0 [encode|decode] [text]"
+fi
